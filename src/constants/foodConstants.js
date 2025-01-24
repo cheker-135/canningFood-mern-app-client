@@ -1,0 +1,51 @@
+// get Foods
+export const ALL_FOOD_REQUEST = "ALL_FOOD_REQUEST";
+export const ALL_FOOD_SUCCESS = "ALL_FOOD_SUCCESS";
+export const ALL_FOOD_FAIL = "ALL_FOOD_FAIL";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+
+// admin food request
+export const ADMIN_FOOD_REQUEST = "ADMIN_FOOD_REQUEST";
+export const ADMIN_FOOD_SUCCESS = "ADMIN_FOOD_SUCCESS";
+export const ADMIN_FOOD_FAIL = "ADMIN_FOOD_FAIL";
+
+// create new Food --> admin
+export const NEW_FOOD_REQUEST = "NEW_FOOD_REQUEST";
+export const NEW_FOOD_SUCCESS = "NEW_FOOD_SUCCESS";
+export const NEW_FOOD_RESET = "NEW_FOOD_RESET";
+export const NEW_FOOD_FAIL = "NEW_FOOD_FAIL";
+
+// Food details -->
+export const FOOD_DETAILS_REQUEST = "FOOD_DETAILS_REQUEST";
+export const FOOD_DETAILS_SUCCESS = "FOOD_DETAILS_SUCCESS";
+export const FOOD_DETAILS_RESET = "FOOD_DETAILS_RESET";
+export const FOOD_DETAILS_FAIL = "FOOD_DETAILS_FAIL";
+
+// Add a review
+export const NEW_REVIEW_REQUEST = "NEW_REVIEW_REQUEST";
+export const NEW_REVIEW_SUCCESS = "NEW_REVIEW_SUCCESS";
+export const NEW_REVIEW_RESET = "NEW_REVIEW_RESET";
+export const NEW_REVIEW_FAIL = "NEW_REVIEW_FAIL";
+
+// Delete Food
+export const DELETE_FOOD_REQUEST = "DELETE_FOOD_REQUEST";
+export const DELETE_FOOD_SUCCESS = "DELETE_FOOD_SUCCESS";
+export const DELETE_FOOD_RESET = "DELETE_FOOD_RESET";
+export const DELETE_FOOD_FAIL = "DELETE_FOOD_FAIL";
+
+// Update Food =>
+export const UPDATE_FOOD_REQUEST = "UPDATE_FOOD_REQUEST";
+export const UPDATE_FOOD_SUCCESS = "UPDATE_FOOD_SUCCESS";
+export const UPDATE_FOOD_RESET = "UPDATE_FOOD_RESET";
+export const UPDATE_FOOD_FAIL = "UPDATE_FOOD_FAIL";
+
+// get all review --> admin
+export const ALL_REVIEW_REQUEST = "ALL_REVIEW_REQUEST";
+export const ALL_REVIEW_SUCCESS = "ALL_REVIEW_SUCCESS";
+export const ALL_REVIEW_FAIL = "ALL_REVIEW_FAIL";
+
+// delete review admin =>
+export const DELETE_REVIEW_REQUEST = "DELETE_REVIEW_REQUEST";
+export const DELETE_REVIEW_SUCCESS = "DELETE_REVIEW_SUCCESS";
+export const DELETE_REVIEW_RESET = "DELETE_REVIEW_RESET";
+export const DELETE_REVIEW_FAIL = "DELETE_REVIEW_FAIL";

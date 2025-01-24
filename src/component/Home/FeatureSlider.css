@@ -1,0 +1,25 @@
+.featured_swiper {
+  width: 100%; /* Toujours utiliser 100% pour remplir le conteneur */
+  max-width: 1200px; /* Largeur maximale */
+  margin: 0 auto; /* Centrer le Swiper */
+}
+
+.featured_slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured_img img {
+  max-width: 100%; /* Pour que les images s'adaptent */
+  height: auto;
+  border-radius: 8px; /* Ajoutez un arrondi si besoin */
+}
+
+.featured_title {
+  font-size: 1rem; /* Texte adaptable */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

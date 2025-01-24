@@ -1,0 +1,35 @@
+.custom-border {
+    border-width: 0.5px; /* or whatever thickness you prefer */
+    border-style: solid;
+    border-color: #000; /* or your preferred color */
+  }
+  
+  /* If you want to customize the internal cell borders as well: */
+  .custom-border th, .custom-border td {
+    border-width: 0.5px; /* matches the table border */
+  }
+ /* Loader style to make sure it's above all modal content */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050; /* Higher than modal content */
+  background: rgba(255, 255, 255, 0.7); /* Optional, adds a semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+.mot-recu {
+ align-items: center;
+ position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: #333;
+   text-align: center;
+padding-bottom: 1px; /* Space between text and line */
+border-bottom: 2px solid #333;
+}

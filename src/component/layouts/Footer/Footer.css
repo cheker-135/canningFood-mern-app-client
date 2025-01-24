@@ -1,0 +1,169 @@
+/* General footer styles */
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 30px 0 0 0;
+  height: auto;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: hsla(0, 0%, 6%, 0.95);
+}
+
+/* Logo section */
+.foot_about {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+.foot_about h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.foot_logo img {
+  width: 70px;
+  border: 3px solid rgb(121, 113, 113);
+  border-radius: 30%;
+}
+
+/* Menu section */
+.foot_menu_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 50%;
+  padding: 10px;
+}
+
+.foot_menu h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.foot_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot_menu li {
+  margin-bottom: 5px;
+}
+
+.foot_menu li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.foot_menu li a:hover {
+  color: #f00;
+}
+
+/* Social links */
+.foot_social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.foot_social a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.foot_social a:hover {
+  color: rgb(179, 9, 9);
+}
+
+/* Separator */
+.separatorFooter {
+  border-top: 0.7px solid rgba(48, 47, 47, 0.712);
+  margin: 10px 0;
+}
+
+/* Sub-footer */
+.sub_footer_root {
+  text-align: center;
+  padding: 10px;
+}
+
+.foot_copyright p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.foot_copyright a {
+  color: rgba(248, 245, 245, 0.733);
+  text-decoration: none;
+}
+
+.foot_copyright a:hover {
+  color: #f00;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .wrapper_footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foot_menu_container {
+    grid-template-columns: 1fr;
+  }
+
+  .foot_social {
+    justify-content: center;
+  }
+
+  .foot_about {
+    text-align: center;
+  }
+
+  .foot_logo img {
+    margin: 0 auto;
+  }
+
+  .input_field_footer {
+    width: 100%;
+  }
+}
+
+/* For very small screens (below 480px) */
+@media screen and (max-width: 480px) {
+  .foot_menu_container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .foot_about {
+    margin-bottom: 20px;
+  }
+
+  .foot_social {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .foot_menu li a {
+    font-size: 12px;
+  }
+
+  .foot_copyright p {
+    font-size: 12px;
+  }
+}

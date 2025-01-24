@@ -1,0 +1,151 @@
+.rootProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  padding: 5rem 2rem;
+  margin-top: 30px;
+}
+
+.header-root {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.headingProfile {
+  font-weight: 900;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  text-transform: uppercase;
+  color: #414141;
+}
+
+.profileConatiner {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.leftCotainer,
+.rightConatiner {
+  flex: 1 1 45%;
+  max-width: 45%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.leftCotainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileHeadingLeft {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #212121;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.profileAvatar {
+  width: 6rem;
+  height: 6rem;
+  font-size: 2rem;
+  background-color: #414141;
+}
+
+.leftDetails {
+  width: 100%;
+  gap: 1rem;
+}
+
+.profileSubHeading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.profileText {
+  font-size: 0.9rem;
+  color: #414141;
+}
+
+.rightConatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profileButton {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #414141;
+  color: white;
+  text-transform: uppercase;
+}
+
+.profileButton:hover {
+  background-color: #ed1c24;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .profileConatiner {
+    flex-direction: column;
+  }
+
+  .leftCotainer,
+  .rightConatiner {
+    max-width: 100%;
+  }
+
+  .profileAvatar {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .profileSubHeading,
+  .profileText {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileAvatar {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .headingProfile {
+    font-size: 1.2rem;
+  }
+
+  .profileSubHeading,
+  .profileText {
+    font-size: 0.7rem;
+  }
+
+  .profileButton {
+    padding: 0.4rem;
+  }
+}
